@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+}
+
+
+
+
+body {
+
+    background-color: white;
+
+}
+
+
+.firstWrapper {
+    margin: 30px auto;
+    padding: 50px;
+    border: 1px solid white;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: #f7f0ef;
+
+
+}
+
+.secondWrapper {
+    padding: 30px;
+    margin: 10px auto;
+    background-color: #e3e8f8;
+    border: 1px solid white;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.thirdFlexWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    padding: 20px;
+
+
+    width: 55vw;
+    height: 75vh;
+
+}
+
+
+.imageData {
+    width: 60%;
+    height: 100%;
+
+
+    background-image: url(Images/SideImage.svg);
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1px solid white;
+
+    border-radius: 10px;
+
+}
+
+.dailyUI {
+    color: #3162f6;
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.betterDesigner {
+    color: #292826;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+
+}
+
+.textSpecial {
+
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.boldText {
+    font-weight: bolder;
+}
+
+.textSpecial {
+    margin: 10px 0 20px 70px;
+    font-size: 24px;
+    display: inline;
+    font-weight: 500;
+}
+
+.hundredDays {
+    color: #3067ee;
+}
+
+.textData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    width: 40%;
+    position: relative;
+
+}
+
+.inputData {
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 20px 70px;
+    width: 15em;
+    text-align: center;
+    display: inline;
+    margin: 0 100px;
+}
+
+
+
+.inputData:hover {
+    box-shadow: 5px 10px #888888;
+    background-color: white;
+    color: black;
+}
+
+
+.getStartedBtn {
+    font-size: 24px;
+    width: 15em;
+    color: #f7f0ef;
+    background-color: #306be8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 40px;
+    margin-left: 100px;
+    display: inline;
+    cursor: pointer;
+
+}
+
+.getStartedBtn:hover {
+    background-color: white;
+
+    box-shadow: 5px 10px #888888;
+    color: black;
+}
+
+
+
+.extraDataOfText {
+    display: inline;
+
+
+    margin-left: 80px;
+
+
+
+}
